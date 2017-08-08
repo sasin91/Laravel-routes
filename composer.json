@@ -1,0 +1,32 @@
+{
+	"name": "sasin91/laravel-routes",
+    "description": "Split your route file(s) into classes!",
+    "keywords": ["routes", "laravel"],
+    "license": "MIT",
+    "type": "package",
+
+    "require": {
+        "illuminate/support": "5.*",
+        "illuminate/contracts": "5.*",
+        "illuminate/http": "5.*",
+        "illuminate/container": "5.*"
+    },
+
+    "require-dev": {
+		"orchestra/testbench": "^3.4",
+		"phpunit/phpunit": "^6.1"
+	},
+
+    "autoload": {
+        "psr-4": {
+            "Sasin91\\LaravelRoutes\\": "src/",
+            "Sasin91\\LaravelRoutes\\Tests\\": "tests/"
+        }
+    },
+
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
